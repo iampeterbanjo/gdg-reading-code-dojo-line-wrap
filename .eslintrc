@@ -1,0 +1,20 @@
+{
+	"globals": {
+			"describe": true,
+			"it": true,
+			"module": true,
+			"mocha": true,
+			"require": true,
+			"assert": true
+	},
+	"rules": {
+			"no-set-state": "off"
+	},
+	"env": {
+			"browser": true,
+			"es6": true
+	},
+	"extends": [
+		"eslint:recommended"
+	]
+}
